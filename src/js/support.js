@@ -165,8 +165,8 @@ function showData() {
     cmEditor.setValue(text);
     cmEditor.clearHistory();
 
-    addDetailsToReportURL('filterReport', true);
-    addDetailsToReportURL('bugReport', true);
+    // addDetailsToReportURL('filterReport', true);
+    // addDetailsToReportURL('bugReport', true);
 }
 
 /******************************************************************************/

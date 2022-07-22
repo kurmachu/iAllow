@@ -893,11 +893,11 @@
     "description": "A clickable link in the filter issue reporter section"
   },
   "supportS1H": {
-    "message": "Documentation",
+    "message": "This is a mod.",
     "description": "Header of 'Documentation' section in Support pane"
   },
   "supportS1P1": {
-    "message": "Read the documentation at <code>uBlock/wiki</code> to learn about all of uBlock Origin's features.",
+    "message": "This is a modified build of uBlock Origin, and does not have support. Please read the repository readme for more information, and don't bother the uBlock team with any support requests.",
     "description": "First paragraph of 'Documentation' section in Support pane"
   },
   "supportS2H": {
@@ -937,7 +937,7 @@
     "description": "Header of 'Troubleshooting Information' section in Support pane"
   },
   "supportS5P1": {
-    "message": "Below is technical information that might be useful when volunteers are trying to help you solve a problem.",
+    "message": "Below is technical information that might be useful when volunteers are trying to help you solve a problem. <b>This may help you with general issues, but please remember you are using an unofficial modification and are not entitled to support from the uBlock team.</b>",
     "description": "First paragraph of 'Troubleshooting Information' section in Support pane"
   },
   "supportS5P2": {
