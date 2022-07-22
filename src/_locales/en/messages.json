@@ -1002,7 +1002,7 @@
   },
 
   "aboutPrivacyPolicy": {
-    "message": "Privacy policy",
+    "message": "Privacy policy (for original uBlock Origin)",
     "description": "Link to privacy policy on GitHub (English)"
   },
   "aboutChangelog": {
@@ -1011,10 +1011,10 @@
   },
   "aboutCode": {
     "message": "Source code (GPLv3)",
-    "description": "English: Source code (GPLv3)"
+    "description": "English: Source code (GPLv3) (iAllow, not for uBlock)"
   },
   "aboutContributors": {
-    "message": "Contributors",
+    "message": "Contributors to uBlock Origin",
     "description": "English: Contributors"
   },
   "aboutSourceCode": {
