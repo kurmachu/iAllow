@@ -4,7 +4,7 @@
     "description": "extension name."
   },
   "extShortDesc": {
-    "message": "Finally, an efficient blocker. Easy on CPU and memory.",
+    "message": "uBlock origin but with the whitelist behavior flipped to be off by default.",
     "description": "this will be in the Chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
