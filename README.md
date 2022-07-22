@@ -20,7 +20,7 @@ iAllow Destination
 
 iAllow Destination is a joke name for a modified version of uBlock Origin that inverts whitelist behavior to make uBlock Origin off-by-default. This is behavior I personally would like to use, but which the project maintainers do not want. Hence, this fork.
 
-*\*Other languages work but do not have updated trusted sites tab text.*
+*\*Other languages work but do not have updated text in the dashboard.*
 
 *\*\*This may work on other browser versions, but it is untested and the name is not changed.*
 
