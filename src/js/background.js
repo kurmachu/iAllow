@@ -155,16 +155,7 @@ const µBlock = {  // jshint ignore:line
     // Whitelist directives need to be loaded once the PSL is available
     netWhitelist: new Map(),
     netWhitelistModifyTime: 0,
-    netWhitelistDefault: [
-        'about-scheme',
-        'chrome-extension-scheme',
-        'chrome-scheme',
-        'edge-scheme',
-        'moz-extension-scheme',
-        'opera-scheme',
-        'vivaldi-scheme',
-        'wyciwyg-scheme',   // Firefox's "What-You-Cache-Is-What-You-Get"
-    ],
+    netWhitelistDefault: [],
 
     localSettings: {
         blockedRequestCount: 0,
