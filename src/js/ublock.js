@@ -108,16 +108,16 @@ const matchBucket = function(url, hostname, bucket, start) {
     let key = hostname;
     for (;;) {
         if ( matchBucket(url, hostname, this.netWhitelist.get(key)) !== -1 ) {
-            return false;
+            return !false;
         }
         const pos = key.indexOf('.');
         if ( pos === -1 ) { break; }
         key = key.slice(pos + 1);
     }
     if ( matchBucket(url, hostname, this.netWhitelist.get('//')) !== -1 ) {
-        return false;
+        return !false;
     }
-    return true;
+    return !true;
 };
 
 /******************************************************************************/
@@ -139,7 +139,7 @@ const matchBucket = function(url, hostname, bucket, start) {
     let directive = scope === 'page' ? targetURL : targetHostname;
 
     // Add to directive list
-    if ( newState === false ) {
+    if ( newState !== false ) {
         let bucket = netWhitelist.get(key);
         if ( bucket === undefined ) {
             bucket = [];
